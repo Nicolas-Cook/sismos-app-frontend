@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(173, 171, 171); /* This will change the font color of the whole page to grey */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  resize: none;
+}
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.box span {
+  text-align: left;
+  resize: none;
+  width: 75px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.box input {
+  width: 30px;
+  text-align: right;
+}
+
+.checkboxContainer {
+  width: 50px !important;
+}
+
+.box div {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  max-width: 400px;
+  background-color: rgb(54, 53, 53);
+  color: white;
+  resize: none;
+}
+
+@media screen and (max-width: 665px) {
+  .box-container {
+      flex-direction: column;
+  }
+}
+
+.checkbox {
+  width: 20px;
+}
+
+.magTypeContainer {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100px;
+}
